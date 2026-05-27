@@ -1,0 +1,16 @@
+{
+  "name": "openshift-frontend-microservice",
+  "version": "1.0.0",
+  "description": "Componente Frontend en Node.js que consume un servicio backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
