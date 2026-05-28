@@ -11,8 +11,8 @@ def index():
 @app.route('/healthz')
 def healthz():
     # Simula que la app falla después de 60 segundos de vida
-    if time.time() - start_time > 60:
-        return Response("Fallo interno", status=500)
+    #if time.time() - start_time > 60:
+    #    return Response("Fallo interno", status=500)
     return "OK", 200
 
 @app.route('/ready')
